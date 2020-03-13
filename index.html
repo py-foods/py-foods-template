@@ -36,10 +36,6 @@
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html">TY FOODS</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
@@ -83,18 +79,81 @@
 					</li>
 				</ul>
 			</div>
-			<div id="searchform-header-replace" class="header-searchform-wrap" data-placeholder="Type then hit enter to search..." >
+			<div class="header-searchform-wrap" data-placeholder="Type then hit enter to search..." >
 				<form action="" method="get" class="searchform">
 					<label>
 						<input type="text" class="field" placeholder="Type then hit enter to search...">
 					</label>
 					<input type="submit" value="" class="submit submit-search px-3"></input>
 				</form>
-				<span id="searchform-header-replace-close" >x</span>
+				<span class="icon-close-nav">x</span>
 			</div>
 		</div>
 	</nav>
 	<!-- END nav -->
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light nav-mobile" id="ftco-navbar">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">TY FOODS</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span>
+			</button>
+
+			<div class="search-top">
+				<form action="#" class="subscribe-form">
+					<div class="form-group d-flex">
+						<input type="text" class="form-control">
+						<input type="submit" value="" class="submit submit-search px-3"><span class="icon-search"></span></input>
+					</div>
+				</form>
+			</div>
+			<div class="translate">
+				<img src="images/google-translate.png" alt="">
+				<ul class="option">
+					<li class="lang active">
+						Tiếng Anh
+					</li>
+					<li class="lang">
+						Tiếng Việt
+					</li>
+				</ul>
+			</div>
+			<div class="header-searchform-wrap" data-placeholder="Search..." >
+				<form action="" method="get" class="searchform">
+					<label>
+						<input type="text" class="field" placeholder="Search...">
+					</label>
+					<input type="submit" value="" class="submit submit-search px-3"></input>
+				</form>
+				<span class="icon-close-nav">x</span>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Trang Chủ</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">Sản Phẩm</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown04">
+							<a class="dropdown-item" href="./shop.html?ctg=c1001&lang=en">Cốc giấy in sẵn</a>
+							<a class="dropdown-item" href="./shop.html?ctg=c1002&lang=en">Cốc giấy take away</a>
+							<a class="dropdown-item" href="./shop.html?ctg=c1003&lang=en">Hộp nhựa</a>
+							<a class="dropdown-item" href="./shop.html?ctg=c1004&lang=en">Hải sản</a>
+							<a class="dropdown-item" href="./shop.html?ctg=c1005&lang=en">Bột Làm Bánh</a>
+						</div>
+					</li>
+					<li class="nav-item"><a href="about.html" class="nav-link">Đối tác thương hiệu</a></li>
+					<li class="nav-item"><a href="blog.html" class="nav-link">Tin tức & Sự kiện</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">Giới thiệu</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Liên Hệ</a></li>
+					<li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span
+								class="icon-shopping_cart"></span>[0]</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
 
 	<section id="home-section" class="hero">
 		<div class="home-slider owl-carousel">
@@ -789,7 +848,7 @@
 				<div class="total-pro"><a href="#">Xem tất cả</div></a>
 			</div>
 			<div class="row product_tabs_slide">
-				<div class="col-lg-6 large_wrap">
+				<div class="col-lg-6 col-md-12 large_wrap">
 					<div class="item first-large-item">
 						<div class="item-product-main">
 							<div class="product-thumnail">
@@ -861,7 +920,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-12">
 					<div class="mini_list">
 						<div class="item mini_item">
 							<div class="item-product-main">

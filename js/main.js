@@ -164,14 +164,17 @@
 	$('.translate').click(function(e){
 		$(this).find('.option').toggle();
 	});
+	var _w = $(window).width();
 	$('.subscribe-form .form-group').click(function(e){
 		if(_w <= 1024) {
-			$("#searchform-header-replace").addClass("show");
+			$(".header-searchform-wrap").addClass("show");
 		}
 	});
-	$("#searchform-header-replace-close").click(function(e){
+	$(".header-searchform-wrap .icon-close-nav").click(function(e){
 		if(_w <= 1024) {
-		$("#searchform-header-replace").removeClass("show");}
+			console.log(1);
+			$(".header-searchform-wrap").removeClass("show");
+		}
 	});
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
