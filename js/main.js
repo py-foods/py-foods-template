@@ -168,11 +168,12 @@
 	$('.subscribe-form .form-group').click(function(e){
 		if(_w <= 1024) {
 			$(".header-searchform-wrap").addClass("show");
+			console.log(1);
 		}
 	});
 	$(".header-searchform-wrap .icon-close-nav").click(function(e){
 		if(_w <= 1024) {
-			console.log(1);
+			console.log(2);
 			$(".header-searchform-wrap").removeClass("show");
 		}
 	});
