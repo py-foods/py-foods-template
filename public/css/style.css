@@ -9026,6 +9026,7 @@ h1, h2, h3, h4, h5,
       border: solid 1px #e0e0e0;
       display: flex;
       align-items: center;
+	  background-color: white;
     }
     .title-product .title_chir {
       position: relative;
@@ -9077,6 +9078,7 @@ h1, h2, h3, h4, h5,
       margin-left: -5px;
     }
     .product_tabs_slide {
+	  background-color:white;
       border-left: 1px solid #efefef;
     }
     .product_tabs_slide .col-lg-6 {
