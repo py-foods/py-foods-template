@@ -1,1 +1,1 @@
-# py-foods-template
+# py_foods_template
