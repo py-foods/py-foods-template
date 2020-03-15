@@ -3584,7 +3584,11 @@ input[type="button"].btn-block {
   }
 }
 .search-top form {
-  border: solid 1px #62c0dc;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 20px;
+}
+.scrolled .search-top form {
+  border: 1px solid rgba(000,000,000,.7);
   border-radius: 20px;
 }
 .search-top form .form-control {
@@ -8505,26 +8509,26 @@ h1, h2, h3, h4, h5,
     padding: 10em 0; }
 
   .mouse {
-      position: fixed;
-      left: 48px;
-      bottom: 43px;
-      z-index: 99;
+    position: fixed;
+    right: 21px;
+    bottom: 54px;
+    z-index: 99;
   }
   .mouse1 {
     position: fixed;
-    right: 20px;
-    bottom: 43px;
+    left: 40px;
+    bottom: 57px;
     z-index: 99;
   }
 
 .mouse-icon {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   border: 1px solid rgba(255, 255, 255, 0.7);
-  -webkit-border-radius: 50%;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%; */
   background: #62c0dc;
   cursor: pointer;
   position: relative;
@@ -8533,18 +8537,21 @@ h1, h2, h3, h4, h5,
   display: block; }
 
 .mouse-wheel {
-  height: 30px;
+  height: 100%;
   margin: 2px auto 0;
   display: block;
-  width: 30px;
+  width: 100%;
   background: transparent;
-  -webkit-border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
-  animation: 1.6s ease infinite wheel-up-down;
+  animation: 1.6s ease infinite wheel-up-down; */
   color: #fff;
   font-size: 20px; }
 
